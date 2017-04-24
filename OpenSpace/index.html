@@ -2,66 +2,11 @@
 <html lang="en">
 	<head>
 	  <title>OpenSpace Example</title>
-		<script type="text/javascript" src="http://openspace.ordnancesurvey.co.uk/osmapapi/openspace.js?key=[YOUR API KEY HERE]"></script>
-	    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-	    <link rel="stylesheet" type="text/css" href="openlayers2.css">
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	    
-			<style>
-			
-			html, body {
-				height: 100%;
-			}
 
-			#map {
-				width: 1200px;
-			  height: 1000px; 
-				border:5px solid black; 
-				float: left; 
-				margin: 10px;
-			}
-			
-			div.container {
-				width: 100%;
-				border: 2px solid gray;
-			}
-			
-			header{
-				padding: 1em;
-				background-color: #F5F5F5;
-				color: white;
-				clear: left;
-				border: 2px solid DarkGrey;
-				text-align: center;
-				background-image: url('https://www.ordnancesurvey.co.uk/module/home-banner/img/walker-dog.jpg');
-				background-position: center top;
-				background-size: banner;
-				background-repeat: no-repeat;
-				margin: 10px;
-			}
-			
-			footer	{
-				padding: 1em;
-				color: #191970;
-				background-color: #F5F5F5;
-				clear: left;
-				text-align: center;
-				border: 2px solid DarkGrey;
-				margin: 10px;	
-			}
-			
-			
-			#text {
-					width: 1200px; 
-					height: 1000px; 
-					border:0px solid white; 
-					float: left; 
-					text-align:center; 
-					margin: 10px;
-			}
-			
-			</style>
-		
+		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900'>
+		<link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type='text/css' href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/openlayers2.css">
 	 </head>
 	 
 		<body>
@@ -73,16 +18,15 @@
 		   <h3>My maps example using the OS OpenSpace API library.</h3>
 		</header>
 		</body>
-
-
-			<script type="text/javascript">
+		<script type="text/javascript" src="http://openspace.ordnancesurvey.co.uk/osmapapi/openspace.js?key=[YOUR API KEY HERE]"></script>
+		<script type="text/javascript">
 			var osMap;
 			
 			function init(){
-			  osMap = new OpenSpace.Map('map');
-			  osMap.setCenter(new OpenSpace.MapPoint(450485, 206389), 3);  
+				osMap = new OpenSpace.Map('map');
+				osMap.setCenter(new OpenSpace.MapPoint(450485, 206389), 3);  
 			}
-			</script>
+		</script>
 			
 		<body onload="init()">
 		  <div id="map"></div>
