@@ -1,12 +1,12 @@
-# OS Maps API Demos
+# OS Maps API for Enterprise Demos
 
-This repo contains working examples of how to use the OS Maps API, a RESTful API based on the OS datasets. The API offers access to five styles of map: Leisure, Outdoor, Road, Light and Night. Scale varies from an overview of Great Britain and OS products such as [MiniScale®] (https://www.ordnancesurvey.co.uk/business-and-government/products/miniscale.html), OS VectorMap® Local and OS VectorMap® District, right down to OS MasterMap® Topography.
+This repo contains working examples of how to use the OS Maps API for Enterprise, a RESTful API based on the OS datasets. The API offers access to five styles of map: Leisure, Outdoor, Road, Light and Night. Scale varies from an overview of Great Britain and OS products such as [MiniScale®] (https://www.ordnancesurvey.co.uk/business-and-government/products/miniscale.html), OS VectorMap® Local and OS VectorMap® District, right down to OS MasterMap® Topography.
 
-In the outdoor stack, buildings in OS MasterMap® Topography are 2.5D. The API supports EPSG:27700 and EPSG:3857 in OGC KVP WMTS and RESTful ZXY. PNG format is supported. There are JavaScript examples using [Leaflet](http://leafletjs.com/) and [Openlayers](http://openlayers.org/).
+In the Outdoor stack, buildings in OS MasterMap® Topography are 2.5D. The API supports EPSG:27700 and EPSG:3857 in OGC KVP WMTS and RESTful ZXY. PNG format is supported. There are JavaScript examples using [Leaflet](http://leafletjs.com/) and [Openlayers](http://openlayers.org/).
 
-Register for an API key of OS Maps API [here](https://developer.ordnancesurvey.co.uk/).
+Register for an API key of OS Maps API for Enterprise [here](https://developer.ordnancesurvey.co.uk/).
 
-Full documentation for the OS Maps API can be found [here](https://apidocs.os.uk/docs/os-maps-overview).
+Full documentation for the OS Maps API for Enterprise can be found [here](https://apidocs.os.uk/docs/os-maps-overview).
 
 ## Using the Demos
 
